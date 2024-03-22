@@ -9,7 +9,7 @@ function Login (){
         <div className="container max-w-lg p-10">
           
       <div className="flex justify-between items-center mb-4 ">
-  <div className=''>
+  <div className='absolute top-11 left-7'>
         <Link to="/">
         <img src={back} className='mx-auto h-5 w-5 mr-2'/>
      
