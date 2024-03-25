@@ -18,7 +18,14 @@ function Login (){
          
       </div>
      
-     
+     <div>
+        <h1>Welcome Back!</h1>
+        <h2>Enter your mobile number to access your account</h2>
+     </div>
+     <div>
+        <h1>Mobile Number</h1>
+       <input type="number" name="" id="" placeholder='+63'/>
+     </div>
       
       
       </div>
