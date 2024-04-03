@@ -1,11 +1,11 @@
 import back from '../../assets/back.png'
-
+import './Login.css'
 import { Link } from 'react-router-dom'
 
 function Login (){
     return(
         <div className='container-choose'>
-        <div className="container max-w-lg p-10">
+        <div className="container max-w-lg p-3">
           
       <div className="flex justify-between items-center mb-4 ">
   <div className='absolute top-11 left-7'>
@@ -24,7 +24,7 @@ function Login (){
      </div>
      <div>
         <h1>Mobile Number</h1>
-       <input type="number" name="" id="" placeholder='+63'/>
+       <input type="number" name="" id="" className="w-2xl remove-arrow" placeholder='+63'/>
      </div>
       
       
