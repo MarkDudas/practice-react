@@ -1,0 +1,13 @@
+.container-activate{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E7EEFA
+}
+.aa{
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+}

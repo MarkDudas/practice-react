@@ -2,6 +2,7 @@ import Home from "../src/pages/home/Home";
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import ChooseMembership from "./pages/choosemembership/ChooseMembership";
 import Login from "./pages/login/Login"
+import ActivateMaxicareCard from "./pages/activateMaxicareCard/ActivateMaxicareCard";
 function App(){
   
 
@@ -12,6 +13,7 @@ function App(){
        
        <Route path="/choose-membership" element={<ChooseMembership />} />
        <Route path="/login" element={<Login />} />
+       <Route path="/activate-maxicarecard" element={<ActivateMaxicareCard />}/>
        
 
        </Routes>
